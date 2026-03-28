@@ -1,0 +1,17 @@
+{
+  "name": "bruff-walking-tour",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Bruff Heritage Trail - Walking Tour PWA",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "serve": "npx serve ."
+  },
+  "devDependencies": {
+    "vitest": "^1.6.0",
+    "@vitest/coverage-v8": "^1.6.0",
+    "jsdom": "^24.1.0"
+  }
+}
