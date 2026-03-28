@@ -17,6 +17,9 @@
   --radius-lg:         16px;
 }
 
+/* Ensure [hidden] attribute is never overridden by other display rules */
+[hidden] { display: none !important; }
+
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
